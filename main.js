@@ -11,6 +11,7 @@ function setup(){
     canvas.center();
 
     video = createCapture(VIDEO);
+    video.size(380,380);
     video.hide();
 
     objectDetecter = ml5.objectDetector('cocossd', modelLoaded);
