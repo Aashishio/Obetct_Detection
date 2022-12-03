@@ -1,0 +1,23 @@
+.heading {
+    font-size: 27px;
+    font-weight: 700;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px grey;
+    line-height: 2;
+}
+
+#status , #agd{
+    font-size: 18px;
+    box-shadow: 4px 4px 4px grey;
+}
+
+body {
+    background-size: cover;
+}
+
+canvas {
+    border-radius: 18px;
+    box-shadow: 10px 10px 10px grey;
+    margin-top: 60px;
+}
